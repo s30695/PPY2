@@ -31,6 +31,11 @@ print(liczby)
 
 liczbyCopy = liczby.copy()
 
+for i in range(len(liczby)):
+    for j in range(i, len(liczby)):
+        z=i*j
+    #dodac z do tuple 
+
 
 
 
