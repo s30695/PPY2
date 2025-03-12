@@ -29,4 +29,8 @@ while len(liczby) < 20:
 print("\nTwoje liczby to:")
 print(liczby)
 
+liczbyCopy = liczby.copy()
+
+
+
 
