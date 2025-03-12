@@ -22,14 +22,16 @@ while len(liczby) < 20:
         if -20 <= liczba <= 20:
             liczby.append(liczba)
         else:
-            print("Liczba musi być w zakresie od -20 do 20. Spróbuj ponownie.")
+            print("Liczba musi byc od -20 do 20. Sprobuj ponownie.")
     except ValueError:
-        print("To nie jest poprawna liczba całkowita. Spróbuj ponownie.")
+        print("To nie jest poprawna liczba. Sprobuj ponownie.")
 
 print("\nTwoje liczby to:")
 print(liczby)
 
 liczbyCopy = liczby.copy()
+
+
 
 
 
